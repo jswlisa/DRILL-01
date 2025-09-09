@@ -22,6 +22,7 @@ def move_right():
 
 def reset():
     turtle.reset()
+    turtle.stamp()
 
 turtle.pendown()
 turtle.shape("turtle")
